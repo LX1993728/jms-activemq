@@ -24,7 +24,6 @@
         <property name="messageConverter">
             <bean class="org.springframework.jms.support.converter.SimpleMessageConverter" />
         </property>
-        <property name="deliveryPersistent" value="true" />
     </bean>
 
     <bean id="destination" class="org.apache.activemq.command.ActiveMQQueue" >
