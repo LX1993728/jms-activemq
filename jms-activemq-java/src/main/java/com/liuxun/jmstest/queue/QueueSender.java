@@ -10,8 +10,8 @@ import javax.jms.*;
 public class QueueSender {
     public static void main(String[] args) throws Exception{
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory
-//                ("tcp://192.168.1.110:61616");
-                ("tcp://localhost:61616");
+                ("tcp://192.168.1.110:61616");
+//                ("tcp://localhost:61616");
         Connection connection = connectionFactory.createConnection();
         connection.start();
 

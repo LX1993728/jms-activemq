@@ -10,7 +10,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jms-java-test</artifactId>
+    <artifactId>jms-activemq-java</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>

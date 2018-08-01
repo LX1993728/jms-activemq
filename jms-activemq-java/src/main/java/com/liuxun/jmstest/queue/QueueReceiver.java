@@ -11,8 +11,8 @@ import java.util.Enumeration;
 public class QueueReceiver {
     public static void main(String[] args) throws Exception{
         ConnectionFactory cf = new ActiveMQConnectionFactory
-//                ("tcp://192.168.1.110:61616");
-                ("tcp://localhost:61616");
+                ("tcp://192.168.1.110:61616");
+//                ("tcp://localhost:61616");
         Connection connection = cf.createConnection();
         connection.start();
 
